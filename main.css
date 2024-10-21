@@ -1,64 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header {
-    padding: 16px 0;
-    background-color: #182c61;
-    color: #ecf0f1;
+body {
+    background-color: rgb(255, 189, 90);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-header nav li {
-    display: inline;
-    margin-left: 16px;
-    font-size: 24px;
-}
-
-header nav li a {
-    color: #ecf0f1;
-    text-decoration: none;
-}
-
-.container {
-    max-width: 1280px;
+form {
+    margin: 100px auto;
+    max-width: 640px;
     width: 100%;
-    margin: 0 auto;
 }
 
-header .container,
-section.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+form button {
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 15px;
+    color: rgb(185, 122, 4);
+    font-weight: bold;
 }
 
-.brands-list img {
-    height: 24px;
-}
-
-.brands-list li {
-    display: inline;
-}
-
-section.container {
-    align-items: flex-start;
-}
-    
-section {
-    padding: 24px 0;
-
-}
-
-section h2 {
-    margin-bottom: 16px;
-}
-
-section p {
-    margin-bottom: 8px;
-}
-
-.store-front {
-    margin-right: 32px;
+input, textarea, button, label {
+    display: block;
+    padding: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 100%;
+    resize: none;
+            
 }

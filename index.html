@@ -2,44 +2,31 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sua loja de games</title>
-    <link rel="stylesheet" href="./main.css">
-</head>
+    <title>Exercicio html_JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+    </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Game Shop</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">Sobre a loja</a>
-                    </li>
-                    <li>
-                        <a href="#">contato</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section>
-            <div class="container">
-                <img class="store-front" src="./images/loja.jpg" alt="Fachada da loja" />
-                <div>
-                    <h2> Sobre a loja</h2>
-                    <P>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, eos. Aperiam optio unde repellat nemo non cupiditate, dolores minus neque vitae alias voluptas corrupti animi iure totam ab facere cum?
-                    </P>
-                    <P>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, eos. Aperiam optio unde repellat nemo non cupiditate, dolores minus neque vitae alias voluptas corrupti animi iure totam ab facere cum?
-                    </P>
-                    <ul class="brands-list">
-                        <li><img src="./images/nintendo.png" alt="Nintendo" /></li>
-                        <li><img src="./images/xbox.png" alt="xbox" /></li>
-                        <li><img src="./images/playstation.png" alt="playstation" /></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+    <div class="form">
+        <form id="form" >
+            <p>
+                <h1>
+                    PARA PROSSEGUIR É NECESSÁRIO QUE O VALOR DO SEGUNDO NOME, SEJA MAIOR QUE O PRIMEIRO
+                </h1>
+            </p>
+            <label for="Insira o Primeiro Número"> Insira o Primeiro Número</label> 
+            <input type="number" id="CampoA" name="campoA" required placeholder="Valor A" />
+
+            <label for="Insira o Segundo Número"> Insira o Segundo Número</label>
+            <input type="number" id="CampoB" name="campoB" required placeholder="Valor B" />
+
+            <button id="botao" type="submit">ENVIAR</button>
+        </form>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
